@@ -99,10 +99,8 @@ fn validate_word(word: [u8; WORD_LEN], letters: [u8; LETTERS_LEN]) -> bool {
     }
     true
 }
-```
 
 // Entry point function
-```
 fn main(word: [u8; WORD_LEN], letters: [u8; LETTERS_LEN]) -> bool {
     validate_word(word, letters)
 }
